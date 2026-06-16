@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - To Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sky">
+
+    <div class="sun"></div>
+    <div class="cloud cloud1"></div>
+
+<div class="cloud cloud2"></div>
+
+<div class="cloud cloud3"></div>
+
+    <div class="moon"></div>
+
+    <div class="bird bird1">
+
+<div class="wing left-wing"></div>
+
+<div class="wing right-wing"></div>
+
+</div>
+
+<div class="bird bird2">
+
+<div class="wing left-wing"></div>
+
+<div class="wing right-wing"></div>
+
+</div>
+<div class="stars">
+
+<span></span><span></span><span></span><span></span><span></span>
+
+<span></span><span></span><span></span><span></span><span></span>
+
+<span></span><span></span><span></span><span></span><span></span>
+
+<span></span><span></span><span></span><span></span><span></span>
+
+<span></span><span></span><span></span><span></span><span></span>
+
+<span></span><span></span><span></span><span></span><span></span>
+
+</div>
+
+</div>
+
+<div class="left-trees">
+
+    <div class="tree">
+        <div class="leaves"></div>
+        <div class="trunk"></div>
+    </div>
+
+    <div class="tree">
+        <div class="leaves"></div>
+        <div class="trunk"></div>
+    </div>
+
+</div>
+
+<div class="right-trees">
+
+    <div class="tree">
+        <div class="leaves"></div>
+        <div class="trunk"></div>
+    </div>
+
+    <div class="tree">
+        <div class="leaves"></div>
+        <div class="trunk"></div>
+    </div>
+
+</div>
+
+<div class="ground"></div>
+<div class="fireflies">
+
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+    <!-- Hero Section -->
+
+<header class="hero">
+
+<h1>TaskFlow</h1>
+
+<p class="tagline">
+Organize your day. Achieve your goals.
+</p>
+
+<p class="quote">
+"Small steps every day lead to big achievements."
+</p>
+
+<button id="themeToggle">🌙 Night Mode</button>
+
+</header>
+   
+
+    <!-- Main Container -->
+
+    <div class="container">
+
+        <!-- Input -->
+
+        <div class="input-section">
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a new task..."
+            >
+
+            <button id="addTaskBtn">
+                Add Task
+            </button>
+
+        </div>
+
+        <!-- Filters -->
+
+        <div class="filters">
+
+            <button id="allBtn">
+                All 
+            </button>
+
+            <button id="activeBtn">
+                INCOMPLETE 
+            </button>
+
+            <button id="completedBtn">
+                COMPLETED 
+            </button>
+
+        </div>
+
+        <!-- Task List -->
+
+        <ul id="taskList">
+
+        </ul>
+
+        <!-- Statistics -->
+
+        <div class="stats">
+
+            <p id="taskCount">
+                Total Tasks: 0
+            </p>
+
+            <p id="completedCount">
+                Completed: 0
+            </p>
+
+            <p id="remainingCount">
+                Remaining: 0
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            Stay productive. Stay focused.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
